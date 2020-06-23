@@ -2,8 +2,6 @@ module github.com/michaelmoore04/shippy/shippy-service-consignment
 
 go 1.13
 
-replace github.com/michaelmoore04/shippy/shippy-service-consignment => ../shippy-service-consignment
-
 require (
 	github.com/golang/protobuf v1.4.2
 	github.com/micro/go-micro v1.18.0
